@@ -18,23 +18,35 @@
     height: 50px;
     position: relative;
     transform: translate(300%, 100%);
-    box-shadow: 1px 0 2px rgb(172, 160, 160)
+    box-shadow: 1px 1px 2px rgb(172, 160, 160);
+    border-top-left-radius:1px;
+}
+.flex-container .bir .uc{
+    width: 12px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    /* transform: rotate(40deg);
+    transform: translate(0 50%); */
+    transform: matrix(0.870, 0.7, -0.9,0.866,-7,1);
+    border-top-left-radius: 3px;
+
 }
 .flex-container .sifir{
     background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     border-radius: 50% 50%;
-    transform: translate(110%, -40%);
+    transform: translate(110%, -4%);
+    box-shadow: 1px 1px 2px rgb(172, 160, 160);
 }
 .flex-container .sifir .ic{
     width: 30px;
     height: 30px;
-    background-color: #FFFFFF;
-    opacity: 0.2;
+    background-color: rgb(50, 137, 250);
     z-index: 3;
     border-radius: 50% 50%;
     position: relative;
-    transform: translate(33%, 35%);
+    transform: translate(36%, 36%);
 
 }
