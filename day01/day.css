@@ -1,0 +1,40 @@
+.flex-container{
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    background-image: linear-gradient(to bottom left ,  rgb(65, 194, 236),blue);
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    position: absolute;
+    
+    
+}
+.flex-container .bir{
+    display: flex;
+    z-index: 2;
+    background-color: white;
+    width: 15px;
+    height: 50px;
+    position: relative;
+    transform: translate(300%, 100%);
+    box-shadow: 1px 0 2px rgb(172, 160, 160)
+}
+.flex-container .sifir{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    transform: translate(110%, -40%);
+}
+.flex-container .sifir .ic{
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    z-index: 3;
+    border-radius: 50% 50%;
+    position: relative;
+    transform: translate(33%, 35%);
+
+}
