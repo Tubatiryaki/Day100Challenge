@@ -40,11 +40,12 @@
     width: 51px;
     height: 51px;
     z-index: 1;
+    border: 1px solid white;
     border-radius: 50% 50%;
-    transform: translate(110%, -4%);
+    transform: translate(107%, -4%);
     box-shadow: 1px 1px 2px rgb(172, 160, 160);
     position: relative;
-    z-index: ;
+    
 }
 .flex-container .sifir .ic{
     width: 30px;
@@ -60,8 +61,9 @@
     background-color: white;
     width: 51px;
     height: 51px;
+    border: 1px solid white;
     border-radius: 50% 50%;
-    transform: translate(198%, -102%);
+    transform: translate(190%, -102%);
     box-shadow: 1px 1px 2px rgb(172, 160, 160);
 }
 .flex-container .sifiri .ici{
