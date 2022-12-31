@@ -12,14 +12,15 @@
 }
 .flex-container .bir{
     display: flex;
-    z-index: 2;
+    z-index: 10;
     background-color: white;
     width: 15px;
     height: 50px;
     position: relative;
     transform: translate(300%, 100%);
-    box-shadow: 1px 1px 2px rgb(172, 160, 160);
+    box-shadow: 0px 1px 2px .5px rgb(143, 141, 141);
     border-top-left-radius:1px;
+    border-radius: 3px;
 }
 .flex-container .bir .uc{
     width: 12px;
@@ -28,25 +29,64 @@
     position: relative;
     /* transform: rotate(40deg);
     transform: translate(0 50%); */
-    transform: matrix(0.870, 0.7, -0.9,0.866,-7,1);
+    transform: matrix(0.870, 0.7, -0.9,0.866,-7,1.5);
     border-top-left-radius: 3px;
+    border-radius: 3px;
+    
 
 }
 .flex-container .sifir{
     background-color: white;
     width: 51px;
     height: 51px;
+    z-index: 1;
     border-radius: 50% 50%;
     transform: translate(110%, -4%);
     box-shadow: 1px 1px 2px rgb(172, 160, 160);
+    position: relative;
+    z-index: ;
 }
 .flex-container .sifir .ic{
     width: 30px;
     height: 30px;
-    background-color: rgb(50, 137, 250);
-    z-index: 3;
+    background-color: rgb(22, 122, 252);
+    z-index: 0;
     border-radius: 50% 50%;
     position: relative;
     transform: translate(36%, 36%);
+
+}
+.flex-container .sifiri{
+    background-color: white;
+    width: 51px;
+    height: 51px;
+    border-radius: 50% 50%;
+    transform: translate(198%, -102%);
+    box-shadow: 1px 1px 2px rgb(172, 160, 160);
+}
+.flex-container .sifiri .ici{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(50, 137, 250);
+    border-radius: 50% 50%;
+    position: relative;
+    transform: translate(36%, 36%);
+
+}
+.flex-container .gun{
+    font-family: "Roboto+Slab";
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    transform: translate(40%, -125%);
+}
+.flex-container .css{
+    color: white;
+    font-family: "Roboto+Slab";
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+    transform: translate(-4%, -140%);
 
 }
