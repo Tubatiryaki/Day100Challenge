@@ -1,41 +1,50 @@
-.container{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(5, 247, 134);
-    border-radius: 3px;
-    position: relative;
-    
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(5, 247, 134);
+  border-radius: 3px;
+  position: relative;
 }
-.container .center{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* -ms-transform: translate(-50%, -50%); */
-    transform: translate(-50%, -50%);
-    border-radius: 1px;
+.container .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -ms-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  border-radius: 1px;
+}
+.container .line {
+  margin: 5px;
+  border-radius: 3px;
+  width: 40px;
+  height: 5px;
+  background-color: white;
+}
+.line1{
+  animation: line1-asagi-animation 1s forwards;
+}
 
-
-    
+@keyframes line1-close-animation{
+  0%{
+    transform: translate3d(0,0,0) rotate(0deg);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(0px) rotate(45deg);
+  }
 }
-.container .line{
-    margin: 5px;
-    border-radius: 3px;
-    width: 40px;
-    height: 5px;
-    background-color: white;
-}
-.container .line-1:hover{
-background-color: red;
-    
-    
-
-}
-.container .line-2{
-   
-}
-.container .line-3{
-   
-   
+@keyframes line1-asagi-animation{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10);
+  }
+  100%{
+    transform: translate3d(0,12,0) rotate(45deg);
+  }
 
 }
